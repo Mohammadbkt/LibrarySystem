@@ -1,0 +1,8 @@
+# Open .gitignore and add:
+
+# .NET specific
+bin/
+obj/
+
+
+
