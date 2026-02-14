@@ -12,10 +12,10 @@ namespace library_system.Models
         public string Address { get; set; } = String.Empty;
         public string Phone { get; set; } = String.Empty;
         public string Email { get; set; } = String.Empty;
-        public DateOnly CreatedAt { get; set; }
-        public DateOnly UpdatedAt { get; set; }
-        public bool IsDeleted { get; set; }
-        public DateOnly DeletedAt { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime? UpdatedAt { get; set; }
+        public bool IsDeleted { get; set; } = false;
+        public DateTime? DeletedAt { get; set; }
 
         //public ICollection<Book> Books { get; set; }
         
