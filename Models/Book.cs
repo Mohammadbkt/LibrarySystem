@@ -9,7 +9,6 @@ namespace library_system.Models
     {
         public int Id { get; set; }
         public string Title { get; set; } = String.Empty;
-        public string ISBN { get; set; } = String.Empty;
         public DateTime PublicationDate { get; set; }
         public string Summary { get; set; } = String.Empty;
         public int PageCount { get; set; }
