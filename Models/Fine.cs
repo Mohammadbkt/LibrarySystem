@@ -19,8 +19,8 @@ namespace library_system.Models
         public DateTime? PaidAt { get; set; }
         public bool IsPaid { get; set; } = false;
 
-        public Borrowing Borrowing { get; set; }
-        public User User { get; set; }
+        public Borrowing? Borrowing { get; set; }
+        public User? User { get; set; }
 
     }
 

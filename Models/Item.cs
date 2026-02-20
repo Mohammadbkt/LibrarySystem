@@ -17,11 +17,11 @@ namespace library_system.Models
         public bool IsDeleted { get; set; } = false;
         public DateTime? DeletedAt { get; set; }
 
-        public Edition Edition { get; set; }
-        public ICollection<Borrowing> Borrowings { get; set; }
-        public ICollection<Reservation> Reservations { get; set; }
-        public ICollection<Feedback> Feedback { get; set; }
-        public ICollection<Wishlist> Wishlists { get; set; }
+        public Edition? Edition { get; set; }
+        public ICollection<Borrowing>? Borrowings { get; set; }
+        public ICollection<Reservation>? Reservations { get; set; }
+        public ICollection<Feedback>? Feedback { get; set; }
+        public ICollection<Wishlist>? Wishlists { get; set; }
         
 
     }

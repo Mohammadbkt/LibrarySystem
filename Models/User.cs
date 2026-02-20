@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace library_system.Models
 {
-    public class User : IdentityUser
+    public class User : IdentityUser<int>
     {
         string FirstName { get; set; } = String.Empty;
         string LastName { get; set; } = String.Empty;

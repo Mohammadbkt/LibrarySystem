@@ -17,8 +17,8 @@ namespace library_system.Models
         public bool IsDeleted { get; set; } = false;
         public DateTime? DeletedAt { get; set; }
 
-        public Book Book { get; set; }
-        public User User { get; set; }
-        
+        public Book? Book { get; set; }
+        public User? User { get; set; }
+
     }
 }

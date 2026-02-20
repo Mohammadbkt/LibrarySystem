@@ -15,7 +15,7 @@ namespace library_system.Models
         public bool IsDeleted { get; set; } = false;
         public DateTime? DeletedAt { get; set; }
 
-        public ICollection<Edition> Editions { get; set; }
-        public ICollection<Book> Books { get; set; }
+        public ICollection<Edition>? Editions { get; set; }
+        public ICollection<Book>? Books { get; set; }
     }
 }

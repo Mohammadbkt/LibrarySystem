@@ -21,13 +21,13 @@ namespace library_system.Models
         public bool IsDeleted { get; set; } = false;
         public DateTime? DeletedAt { get; set; }
 
-        public Author Author { get; set; }
-        public Language Language { get; set; }
-        public Publisher Publisher { get; set; }
-        public Category Category { get; set; }
-        public ICollection<Feedback> Feedback { get; set; }
-        public ICollection<Wishlist> Wishlists { get; set; }
-        public ICollection<Edition> Editions { get; set; }
+        public Author? Author { get; set; }
+        public Language? Language { get; set; }
+        public Publisher? Publisher { get; set; }
+        public Category? Category { get; set; }
+        public ICollection<Feedback>? Feedback { get; set; }
+        public ICollection<Wishlist>? Wishlists { get; set; }
+        public ICollection<Edition>? Editions { get; set; }
 
     }
 }
